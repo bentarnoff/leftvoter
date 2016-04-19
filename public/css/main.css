@@ -1,0 +1,128 @@
+body {
+	background: #e5e5e5;
+	New Courier, Courier;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+h1 {
+	display: inline;
+}
+
+h2 {
+	font-size: 25px;
+		display: inline;
+}
+
+h3 {
+	display: inline;
+}
+
+.vote-info {
+	background: yellow;
+	border-radius: 30px;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+.page {
+  margin: 20px 0
+}
+
+.wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+  min-height: 600px;
+}
+
+.content{
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px 4px #000000;
+	background: #FFFFFF;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.state-header{
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px 0px #000000;
+	background: #FFFFFF;
+	width: 50%;
+	margin-top: 20px;
+	background-color: red;
+	color: white;
+}
+
+.select-stack{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.state-select{
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px 4px #000000;
+	background: #FFFFFF;
+	width: 30%;
+	background-color: #00FFFF;
+	color: black;
+}
+
+.state-select a{
+	color: black;
+}
+
+.state-info{
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px 0px #000000;
+	background: #FFFFFF;
+	width: 50%;
+	margin-top: 0px;
+	background: yellow;
+	color: black;
+	font-size: 13px;
+
+}
+
+.img-container {
+float: left;
+width: 40%;
+margin-top: 50px;
+}
+
+.content-container {
+float: right;
+width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+
+.img-container{
+	width: 100%;
+}
+.state-info{
+	width: 100%;
+}
+.state-header{
+	width: 100%;
+}
+
+.state-select{
+	width: 100%;
+}
+
+ .content-container{
+ 	float: none;
+ 	width: 100%;
+ }
+
+ .state-header {
+	float: left;
+}
+
+}
